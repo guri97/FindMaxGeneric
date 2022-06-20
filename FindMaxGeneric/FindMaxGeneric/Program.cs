@@ -6,11 +6,12 @@
         {
             Console.WriteLine("Welcome to Maximum value finder");
             // MaxNumberCheck maxNumberCheck = new MaxNumberCheck();
-            int result = MaxNumberCheck.MaxIntegerNumber(4, 6, 2);
-            Console.WriteLine(result);
+            int integers = MaxNumberCheck.MaxIntegerNumber(4, 6, 2);
+            Console.WriteLine(integers);
+            double Double = MaxNumberCheck.MaxFloatNumber(1.2, 3.4, 5.6);
+            Console.WriteLine(Double);
 
 
         }
     }
 }
-
