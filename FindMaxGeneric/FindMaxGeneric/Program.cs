@@ -13,6 +13,12 @@
             string string1 = MaxNumberCheck.MaximumString("22", "23", "26");
             Console.WriteLine(string1);
 
+            Console.WriteLine("generic method");
+            GenericMethod.GetMaximum<int>(4, 6, 2);
+            GenericMethod.GetMaximum<double>(1.2, 3.4, 5.6);
+            GenericMethod.GetMaximum<string>("22", "23", "26");
+
+
 
         }
     }
